@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.example.com/</loc>
+      <lastmod>2005-01-01</lastmod>
+   </url>
+   <url>
+      <loc>./00.Homepage.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./01.introducao.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./02.listasElinks.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./03.formatacaodetextos.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./04.formatacao-de-tabelas.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./05.Layouts.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./06.Formularios.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./07.tabela.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./08.layouts-fluidos.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./09.Elementos-graficos.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+   <url>
+      <loc>./10.weblayouts.html</loc>
+      <lastmod>2024-18-01</lastmod>
+   </url>
+
+</urlset> 

@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(255, 68, 0);
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  background: transparent;
+  padding: 0.5rem;
+  color: orange;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding: 2rem;
+}
+
+.video {
+  display: block;
+  width: 100%;
+  padding: 2% 5%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(255, 68, 0);
+  padding: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+}
+
+.coluna-100w {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+section img{
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+  
+}
+
+section :hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* Mobile first */
+
+/* Smartphone */
+@media (max-width: 425px) {
+  section, nav, article {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  nav {
+    width: 30%;
+  }
+
+  article {
+    width: 70%;
+  }
+
+  section {
+    width: 60%;
+  }
+
+  .video,
+  .coluna-100w {
+    text-align: center;
+  }
+}
